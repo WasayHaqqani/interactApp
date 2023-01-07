@@ -11,7 +11,8 @@ install! 'cocoapods', :deterministic_uuids => false
 
 target 'interact' do
   config = use_native_modules!
-
+  # pod 'MLKitVision', :podspec => 'MLKitVision.podspec.json'
+  # pod 'MLKitCommon', :podspec => 'MLKitCommon.podspec.json'
   # Flags change depending on the env values.
   flags = get_default_flags()
 
